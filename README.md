@@ -26,3 +26,12 @@ A vertical 9:16 promotional video project for a global online business opportuni
 
 ## Rendering
 This repository stores the creative brief and production assets. GitHub Pages can publish the project page, but realistic image-to-video animation, voice generation, and final MP4 rendering require a video-generation service (for example, HeyGen or another compatible editor).
+
+## Publish the project page
+GitHub Pages is a separate setting and is not yet confirmed live. To publish the dashboard:
+1. Open **Settings → Pages** in this repository.
+2. Under **Build and deployment**, choose **GitHub Actions** as the source.
+3. Open the **Actions** tab, select **Deploy production page**, and choose **Run workflow** on branch `main`.
+4. When the workflow completes successfully, the page will be available at: https://mteremartinez2023-droid.github.io/sante-barley-ai-ad/
+
+This publishes the project dashboard and supporting documents only. It does not generate an AI-presenter MP4.
